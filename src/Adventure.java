@@ -4,6 +4,8 @@ public class Adventure {
 
         System.out.println("Test");
 
+        System.out.println("Hvad så");
+
     }
 
 }
