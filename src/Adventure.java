@@ -22,7 +22,7 @@ public class Adventure {
         Room room8 = new Room("The bedroom", "There's a bed with perfect bedding that hasn't been touched for a very long time. Looking around you see a hatch in the north of the room");
         Room room9 = new Room("The lab", "There's an operating table with dried blood all over");
 
-        //Vi mapper rummenes forbindelser
+        //Vi mapper rummenes forbindelser | Rummene forbinder ikke med hinanden automatisk, da man ikke skal kunne gå igennem room 5 begge veje i vores version af spillet
         room1.setEast(room2);
         room1.setSouth(room4);
         room2.setWest(room1);
